@@ -12,7 +12,7 @@ const ParticlesContainer = () => {
 
   return (
     <Particles
-      className='w-full h-full absolute translate-z-0'
+      className='absolute w-full h-full translate-z-0'
       id='tsparticles'
       init={particlesInit}
       loaded={particlesLoaded}
@@ -42,7 +42,7 @@ const ParticlesContainer = () => {
             },
             repulse: {
               distance: 200,
-              duration: 0.4,
+              duration: 0.6,
             },
           },
         },
